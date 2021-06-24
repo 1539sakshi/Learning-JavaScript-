@@ -1,13 +1,13 @@
 //FUNCTION FOR MOUSE CLICK
-for(var i=0; i<document.querySelector(".drum").length; i++){
+for(let i=0; i<document.querySelectorAll(".drum").length; i++){
 document.querySelectorAll(".drum")[i].addEventListener("click", function() {
 
-this.style.color="white";
+  var xyz = document.getElementsByClassName("drum")[i];
+  var button = xyz.innerHTML;
+  makeSound(button);
 
-makeSound(button); 
 });
 }
-
 
 //FUNCTION FOR KEYBOARDPRESS
 document.addEventListener("keypress", function(event){
@@ -27,7 +27,7 @@ function makeSound(key){
       kick.play();
       break;
     case "s":
-      var snare = new Audio("/sounds/snare.mp3");
+      var snare = new Audio("sounds/snare.mp3");
       snare.play();
       break;
     case "d":
@@ -54,4 +54,4 @@ function makeSound(key){
 
 //FUNCTION FOR CHANGING THE STYLE OF CONTENT INSIDE THE BOX
 
-document.querySelectorAll(".drum").style.color=white
+// document.querySelectorAll(".drum").style.color=white
