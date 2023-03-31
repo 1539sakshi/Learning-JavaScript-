@@ -1,5 +1,6 @@
 # HTML/CSS/JS & DOM - Drum Game 
 - A web-based Drum Music game for playing the drum. This can give you an experience of drum playing. So enjoy playing.
+<p align="center"><img src="https://github.com/1539sakshi/Learning-JavaScript-/blob/main/Drum%20Kit/images/Drum_Game.png" width="500"/></p>
 
 # Dice-Game
 - Whether it be a bet, or settling a huge debate, or maybe even taking a decision, use this simple game to settle it all! Just choose sides, hit refresh, and you're good to go!
