@@ -5,6 +5,7 @@
 # Dice-Game
 - Whether it be a bet, or settling a huge debate, or maybe even taking a decision, use this simple game to settle it all! Just choose sides, hit refresh, and you're good to go!
 - Dice-Game is a simple interactive game to decide who will do this work today or who will go to the market to buy vegetables for today. Just you have to refresh the webpage. The HTML5, CSS3, and javascript will do the remaining work of decision making for you.
+- <p align="center"><img src="https://github.com/1539sakshi/Learning-JavaScript-/blob/main/Dice%20Game/images/Dice_Game.png" width="500"/></p>
 
 
 ## About
